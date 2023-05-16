@@ -1,0 +1,222 @@
+/* css reset */
+
+
+/* <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">   */
+
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    color: honeydew;
+    margin: 0px;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    padding: 0px;
+    background: url("img/pexels-sabel-blanco-1756959.jpg ");
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px dashed green; */
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px dashed rgb(126, 184, 126); */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px dashed rgb(204, 207, 31); */
+}
+
+.left img {
+    width: 86px;
+    padding-left: 13px;
+    /* filter: invert(); */
+}
+
+.left div {
+    text-align: center;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 18px;
+}
+ .btn a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 18px;
+}
+
+.btn {
+    font-family: 'Do Hyeon', sans-serif;
+    padding: 13px 17px;
+    color: white;
+    margin: 0 5px;
+    background: none;
+    font-size: 13px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+.btn:hover {
+    text-decoration: underline;
+    background-color: rgb(165, 158, 158);
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(223, 216, 216);
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 386px;
+    padding: 3px;
+    margin: 6px auto;
+    border: 2px solid rgb(51, 49, 49);
+    font-size: 18px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.container button {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+.container {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 18px;
+    margin: 53px 40px;
+    padding: 26px;
+    width: 33%;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.about {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    /* display: block; */
+    margin: auto;
+    padding: 42px;
+    width: 40%;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+#d1 {
+    /* border: 2px solid yellowgreen; */
+    /* display: block;
+        width: 80%; */
+    margin: 2px auto;
+    padding: 2px;
+}
+
+#d2 {
+    /* border: 2px solid yellowgreen; */
+    margin: 2px auto;
+    padding: 2px;
+}
+
+#d2 li {
+    font-size: 19px;
+    margin: 2px auto;
+    padding: 2px;
+}
+
+#d1 p {
+    font-size: 19px;
+    margin: 2px auto;
+    padding: 2px;
+}
+
+.contact {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    display: block;
+    margin: 55px 70px;
+    padding: 42px;
+    width: 30%;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact li {
+    font-size: 19px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.photo {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    display: block;
+    margin: 55px 70px;
+    padding: 42px;
+}
+
+.photo h2 {
+    text-align: center;
+}
+
+.pg {
+    border: 2px solid rgb(194, 188, 188);
+    margin: 11px;
+    padding: 5px;
+}
+
+.pg1 {
+    border: 2px solid rgb(194, 188, 188);
+    margin: 11px;
+    padding: 5px;
+}
+
+.pg marquee img {
+    height: 200px;
+    width: 300px;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid rgb(248, 225, 182);
+}
+
+.pg1 marquee img {
+    height: 200px;
+    width: 150px;
+    margin: 3px 4px;
+    padding: 2px 4px;
+    border: 2px solid rgb(248, 225, 182);
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+}
