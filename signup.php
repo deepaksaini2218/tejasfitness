@@ -14,7 +14,7 @@
     <?php
 // require 'config.php';
 if(!empty($_SESSION["id"])){
-    header("location: index.php");
+    header("location: index.html");
 }
 if(isset($_POST["submit"])){
     $name=$_POST["name"];

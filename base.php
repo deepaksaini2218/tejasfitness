@@ -19,7 +19,7 @@
 <!--mid  box for navbar -->
 <div class="mid">
     <ul class="navbar">
-        <li><a href="index.php" class="active">HOME</a></li>
+        <li><a href="index.html" class="active">HOME</a></li>
         <li><a href="About us.php">ABOUT US</a></li>
         <li><a href="photo gallery.php"> PHOTO GALLERY </a></li>
         <li><a href="contact us.php">CONTACT US</a></li>
